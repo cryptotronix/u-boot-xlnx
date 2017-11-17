@@ -8,6 +8,7 @@
 #define CONFIG_LZO
 
 #define CONFIG_EXTRA_ENV_SETTINGS   \
+    "fdt_high=0x20000000\0" \
     "autoload=no\0" \
     "serverip=192.168.1.200\0" \
     "ethaddr=00:0a:35:00:01:22\0"   \
