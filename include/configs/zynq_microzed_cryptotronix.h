@@ -4,6 +4,9 @@
 /* Define ZYBO Z7 PS Clock Frequency to 33.3333MHz */
 #define CONFIG_ZYNQ_PS_CLK_FREQ 33333333UL
 
+/* add LZO compression support */
+#define CONFIG_LZO
+
 #define CONFIG_EXTRA_ENV_SETTINGS   \
     "autoload=no\0" \
     "serverip=192.168.1.200\0" \
