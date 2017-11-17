@@ -6,7 +6,7 @@
 
 #define CONFIG_EXTRA_ENV_SETTINGS   \
     "autoload=no\0" \
-    "severip=192.168.1.200\0" \
+    "serverip=192.168.1.200\0" \
     "ethaddr=00:0a:35:00:01:22\0"   \
     "fit_load_address=0x2080000\0" \
     "fit_image=image.fit\0" \
