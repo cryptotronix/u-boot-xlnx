@@ -7,6 +7,10 @@
 /* add LZO compression support */
 #define CONFIG_LZO
 
+/* add extra DHCP settings */
+#define CONFIG_BOOTP_GATEWAY
+#define CONFIG_BOOTP_DNS
+
 #define CONFIG_EXTRA_ENV_SETTINGS   \
     "fdt_high=0x20000000\0" \
     "autoload=no\0" \
